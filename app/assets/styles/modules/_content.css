@@ -95,10 +95,17 @@
     }
   }
 
-  &__pd {
+  &__padding-left {
 
     &--sm {
       padding-left: 70px;
+    }
+  }
+
+  &__padding-right {
+
+    &--xl {
+      padding-right: 200px;
     }
   }
 

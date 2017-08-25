@@ -675,8 +675,12 @@ html, body {
       margin: 0;
     }
 
-.content__pd--sm {
+.content__padding-left--sm {
       padding-left: 70px;
+    }
+
+.content__padding-right--xl {
+      padding-right: 200px;
     }
 
 /*@import "modules/_margin.css"*/
