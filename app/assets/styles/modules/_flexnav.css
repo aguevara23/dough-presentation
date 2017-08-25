@@ -1,0 +1,32 @@
+.flexnav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+
+  &-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-right {
+    display: flex;
+    flex: 1;
+}
+
+  &-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+
+    li {
+      padding: 10px 40px;
+    }
+  }
+
+
+
+}
