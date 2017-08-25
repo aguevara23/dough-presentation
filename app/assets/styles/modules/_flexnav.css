@@ -14,16 +14,17 @@
     flex: 1;
 }
 
-  &-list {
+  &__list {
     width: 100%;
     list-style: none;
     display: flex;
     color: white;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 5%;
 
     li {
-      padding: 10px 40px;
+      padding: 10px 20px;
     }
   }
 

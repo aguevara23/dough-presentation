@@ -1,0 +1,25 @@
+.padding {
+
+  &--none {
+    padding: 0;
+  }
+
+  &__left {
+
+    &--sm {
+      padding-left: 70px;
+    }
+
+    &--md {
+      padding-left: 100px;
+  }
+
+  &__right {
+    &--sm {
+      padding-right: 70px;
+    }
+
+    &--md {
+      padding-right: 100px;
+  }
+}

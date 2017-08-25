@@ -1,0 +1,27 @@
+.margin {
+
+  &--none {
+    margin: 0;
+  }
+
+  &__left {
+
+    &--sm {
+      margin-left: 70px;
+    }
+
+    &--lg {
+      margin-left: 200px;
+    }
+  }
+
+  &__right {
+
+    &--sm {
+      margin-right: 70px
+    }
+    &--lg {
+      margin-right: 200px;
+    }
+  }
+}
