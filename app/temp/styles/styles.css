@@ -466,33 +466,6 @@ html, body {
     /*background: rgba(255, 0, 0, 0.5);*/
   }
 
-#page1 {
-  background-image: url('../../assets/images/goldengate.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-}
-
-#page2 {
-  background: rgba(0,0,0,0.8);
-}
-
-#page3 {
-  background: rgba(0,0,0,0.8);
-}
-
-#page4 {
-  background: lightblue;
-}
-
-#page5 {
-  background-image: url('../../assets/images/rivermountain.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
 .flexnav {
   position: fixed;
   display: -webkit-box;
@@ -607,7 +580,7 @@ html, body {
     }
 
 .content__text--large {
-      font-size: 80px;
+      font-size: 60px;
     }
 
 .content__text--medium {
@@ -645,6 +618,12 @@ html, body {
       margin: 0;
     }
 
+.content__left--2 {
+      -webkit-box-flex: 1.2;
+          -ms-flex: 1.2;
+              flex: 1.2;
+    }
+
 .content__left--yellow {
       background: yellow;
       text-align: right;
@@ -675,12 +654,98 @@ html, body {
       margin: 0;
     }
 
+.content__right--1 {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+
 .content__padding-left--sm {
       padding-left: 70px;
+    }
+
+.content__padding-left--md {
+      padding-left: 120px;
+    }
+
+.content__padding-left--lg {
+      padding-left: 160px;
+    }
+
+.content__padding-right--sm {
+      padding-right: 70px;
+    }
+
+.content__padding-right--md {
+      padding-right: 120px;
+    }
+
+.content__padding-right--lg {
+      padding-right: 160px;
     }
 
 .content__padding-right--xl {
       padding-right: 200px;
     }
 
-/*@import "modules/_margin.css"*/
+.margin--none {
+    margin: 0;
+  }
+
+.margin__left--sm {
+      margin-left: 70px;
+    }
+
+.margin__left--lg {
+      margin-left: 200px;
+    }
+
+.margin__right--sm {
+      margin-right: 70px
+    }
+
+.margin__right--lg {
+      margin-right: 200px;
+    }
+
+#page1 {
+  background-image: url('../../assets/images/goldengate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+#page2 {
+  background: rgba(0,0,0,0.8);
+}
+
+#page3 {
+  background: rgba(0,0,0,0.8);
+}
+
+#page4 {
+  background: lightblue;
+}
+
+#page5 {
+  background-image: url('../../assets/images/rivermountain.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header-text {
+  font-size: 110px;
+}
+
+.view__button {
+  color: white;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+}

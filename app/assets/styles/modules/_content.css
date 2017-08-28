@@ -50,7 +50,7 @@
     }
 
     &--large {
-      font-size: 80px;
+      font-size: 60px;
     }
 
     &--medium {
@@ -75,6 +75,10 @@
       margin: 0;
     }
 
+    &--2 {
+      flex: 1.2;
+    }
+
     &--yellow {
       background: yellow;
       text-align: right;
@@ -93,16 +97,43 @@
     > * {
       margin: 0;
     }
+
+    &--1 {
+      flex: 1;
+      justify-content: center;
+    }
   }
+
+
 
   &__padding-left {
 
     &--sm {
       padding-left: 70px;
     }
+
+    &--md {
+      padding-left: 120px;
+    }
+
+    &--lg {
+      padding-left: 160px;
+    }
   }
 
   &__padding-right {
+
+    &--sm {
+      padding-right: 70px;
+    }
+
+    &--md {
+      padding-right: 120px;
+    }
+
+    &--lg {
+      padding-right: 160px;
+    }
 
     &--xl {
       padding-right: 200px;

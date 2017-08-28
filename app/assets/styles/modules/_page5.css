@@ -4,3 +4,15 @@
   background-size: cover;
 
 }
+
+.header-text {
+  font-size: 110px;
+}
+
+.view__button {
+  color: white;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
