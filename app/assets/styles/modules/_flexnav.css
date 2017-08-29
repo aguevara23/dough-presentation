@@ -2,6 +2,14 @@
   position: fixed;
   display: flex;
   width: 100%;
+  flex-direction: column;
+  background: rgba(0,0,0,0.4);
+  display: none;
+
+  @mixin atSmall {
+    flex-direction: row;
+    background: none;
+  }
 
   &-logo {
     display: flex;
@@ -9,7 +17,11 @@
     align-items: center;
     font-size: 2rem;
     font-weight: bold;
-    padding-left: 70px;
+    padding-left: 0px;
+
+    @mixin atSmall {
+      padding-left: 70px;
+    }
 
     a {
       color: lightblue;
@@ -26,13 +38,30 @@
     width: 100%;
     list-style: none;
     display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0;
 
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 5%;
+
+    @mixin atSmall {
+      flex-direction: row;
+      background: none;
+      padding-right: 5%;
+      justify-content: flex-end;
+    }
 
     li {
       padding: 10px 20px;
+      border: 2px solid white;
+      width: 100%;
+      text-align: center;
+
+      @mixin atSmall {
+        border: none;
+        text-align: center;
+        width: 150px;
+      }
 
       a {
         color: white;

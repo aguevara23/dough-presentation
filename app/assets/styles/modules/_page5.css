@@ -3,6 +3,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @mixin atSmall {
+    background-position: -20% 30%;
+  }
 }
 
 .header-text {

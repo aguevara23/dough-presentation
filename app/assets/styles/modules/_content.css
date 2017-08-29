@@ -46,7 +46,11 @@
     }
 
     &--extra-large {
-      font-size: 125px;
+      font-size: 100px;
+
+      @mixin atSmall {
+        font-size: 125px;
+      }
     }
 
     &--large {
@@ -54,7 +58,11 @@
     }
 
     &--medium {
-      font-size: 40px;
+      font-size: 30px;
+
+      @mixin atSmall {
+        font-size: 40px;
+      }
     }
 
     &--small {
